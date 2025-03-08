@@ -108,6 +108,4 @@ Muhammad Manda
 - LinkedIn: [Muhammad Manda](https://www.linkedin.com/in/muhammad-manda/)
 - GitHub: [@MuhammadManda](https://github.com/MuhammadManda)
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
