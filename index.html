@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Manda - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <script>
+      window.addEventListener("load", function () {
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      });
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
+    </script>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home Section with 3D Animation -->
+    <section id="home">
+      <div class="home-content">
+        <h1>Hi, I'm Muhammad Manda</h1>
+        <p>A Web Developer, Data Analyst, and Machine Learning Engineer</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="#contact" class="btn" style="margin-left: 1rem"
+            >Get in Touch</a
+          >
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>
+          I'm a Computer Programming student passionate about web development
+          and problem-solving. With a focus on JavaScript and React, I love
+          building interactive web applications and tackling challenging
+          projects. When I'm not coding, you'll find me exploring new
+          technologies, contributing to the developer community, and turning
+          innovative ideas into reality.
+        </p>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <i class="fab fa-html5"></i>
+            <p>HTML5</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-css3-alt"></i>
+            <p>CSS3</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-js"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-react"></i>
+            <p>React</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-node-js"></i>
+            <p>Node.js</p>
+          </div>
+          <div class="skill-item">
+            <i class="fab fa-git-alt"></i>
+            <p>Git</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="resume-button-container">
+      <a href="assets/MuhammadMandaResume.pdf" class="btn" download
+        >Download Resume</a
+      >
+    </div>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <img
+            src="assets/img/project01.jpg"
+            alt="Minimalist Interior Design Website"
+          />
+          <div class="project-content">
+            <h3>Minimalist Interior Design</h3>
+            <div class="project-description">
+              A minimalist, responsive interior design website showcasing
+              elegant furniture and modern aesthetics.
+            </div>
+            <ul class="project-highlights">
+              <li>
+                Developed using Bootstrap's grid system for seamless
+                adaptability across devices
+              </li>
+              <li>
+                Designed an intuitive navigation bar with a hamburger menu for
+                mobile screens
+              </li>
+              <li>
+                Customized and tested navigation bar responsiveness across
+                different devices
+              </li>
+            </ul>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Bootstrap</span>
+              <span>Responsive</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/MuhammadManda/minimalist-website-project"
+                target="_blank"
+                class="btn"
+              >
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="assets/img/project02.jpg" alt="CareShare Website" />
+          <div class="project-content">
+            <h3>CareShare</h3>
+            <div class="project-description">
+              A charity-focused website project designed to showcase skills in
+              web development and user-centered design.
+            </div>
+            <ul class="project-highlights">
+              <li>
+                Collaborated on creating a charity-focused platform with
+                emphasis on user experience
+              </li>
+              <li>
+                Incorporated media queries to optimize layout for both desktop
+                and mobile users
+              </li>
+              <li>
+                Developed interactive forms to facilitate user engagement and
+                communication
+              </li>
+            </ul>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/ArsenValeevSectionC/D4H"
+                target="_blank"
+                class="btn"
+              >
+                <i class="fab fa-github"></i> View Code
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="assets/img/project03.jpg" alt="Portfolio Website" />
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <div class="project-description">
+              A modern portfolio website featuring 3D animations, interactive
+              elements, and responsive design.
+            </div>
+            <ul class="project-highlights">
+              <li>
+                Built with modern web technologies including Three.js for 3D
+                animations
+              </li>
+              <li>
+                Implemented smooth scrolling and interactive project cards
+              </li>
+              <li>Designed with a focus on performance and user experience</li>
+            </ul>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Three.js</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn">
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Let's Connect</h2>
+      <p>Have a project in mind or want to collaborate? Let's talk!</p>
+      <form
+        id="contact-form"
+        class="contact-form"
+        action="mailto:mandamuhammad16@gmail.com"
+        method="POST"
+        enctype="text/plain"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/muhammad-manda/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="mailto:mandamuhammad16@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
